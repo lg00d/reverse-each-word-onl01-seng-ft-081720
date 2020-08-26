@@ -3,6 +3,6 @@ def reverse_each_word(sentence1)
   reversed_array = []
   
   sentence1.each do |word|
-    reversed_array << ?????  
+    reversed_array << word.reverse 
   end
 end
